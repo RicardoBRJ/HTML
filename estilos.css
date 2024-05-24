@@ -108,3 +108,45 @@ a{
     justify-content: center;
     gap: 1em;
 }
+
+.laptop1:hover{
+    transform: scale(1.1);
+    transition: all .4s ease;
+    filter: drop-shadow( 10px 10px 100px rgba(3, 103, 253, 0.986));
+}
+.laptop2:hover{
+    transform: scale(1.1);
+    transition: all .4s ease;
+    filter: drop-shadow( 10px 10px 100px rgba(3, 103, 253, 0.986));
+
+}
+.laptop3:hover{
+    transform: scale(1.1);
+    transition: all .4s ease;
+    filter: drop-shadow( 10px 10px 100px rgba(3, 103, 253, 0.986));
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    background-color: #333333;
+    padding: 10px;
+}
+
+.title-footer{
+    color: white;
+}
+
+.info-extra{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.info-extra > a:hover{
+    text-decoration-line:underline ;
+}
