@@ -26,6 +26,12 @@ section{
     gap: 2em;
 }
 
+footer{
+    color: white;
+    background-color: #333333;
+    padding: 10px;
+}
+
 nav{
     display: grid;
     grid-template-columns: repeat(8, 1fr) 10px;
@@ -38,6 +44,23 @@ a{
     color: white;
     padding: 1px;    
 }
+
+footer > address{
+    text-align: center;
+}
+
+.title-categoria{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    padding: 2em 5em;
+    border-radius: 60px;
+}
+
+.title-categoria:hover{
+    filter: drop-shadow( 2px 5px 20px #7300ff );
+    transition: all .5s ease;
+}
+
 
 .title{
     grid-area: 1/2/2/4;
@@ -77,7 +100,7 @@ a{
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
-    text-align: justify;
+    text-align: center;
     align-items: center;
     gap: 10px;
 }
@@ -102,6 +125,11 @@ a{
    padding: 10px;
 }
 
+.pc-text{
+    color: white;
+    text-align: center;
+}
+
 .img-laptop{
     display: flex;
     flex-direction: row;
@@ -112,7 +140,7 @@ a{
 .laptop1:hover{
     transform: scale(1.1);
     transition: all .4s ease;
-    filter: drop-shadow( 10px 10px 100px rgba(3, 103, 253, 0.986));
+    filter: drop-shadow( 10px 10px 80px rgba(3, 103, 253, 0.986));
 }
 .laptop2:hover{
     transform: scale(1.1);
@@ -131,8 +159,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2em;
-    background-color: #333333;
+    gap: 3em;
     padding: 10px;
 }
 
@@ -150,6 +177,7 @@ a{
 .info-extra > a:hover{
     text-decoration-line:underline ;
 }
+
 .consolas{
     width: 80%;
     display: grid;
