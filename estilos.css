@@ -150,3 +150,16 @@ a{
 .info-extra > a:hover{
     text-decoration-line:underline ;
 }
+.consolas{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2em;
+    padding: 10px;
+}
+
+.consola{
+    color: white;
+    text-align: center;
+}
